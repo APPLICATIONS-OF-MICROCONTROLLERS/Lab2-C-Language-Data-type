@@ -198,10 +198,13 @@ Serial.println(myBool); // false จะถูกแสดงเป็น 0
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+![image](https://github.com/user-attachments/assets/6f99b239-b752-46e6-9010-59099b3547ca)
 
 __คำถาม__ 
 
 5.1 true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
+- True = 1
+- False = 0
 
 ### 6. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย)
 
