@@ -376,6 +376,9 @@ Serial.print("ค่าเฉลี่ย (7/20): ");
 Serial.println(average);
 ```
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+- ผลลัพธ์ที่ได้
+  ![image](https://github.com/user-attachments/assets/9bb1cfd4-b9eb-46e9-a76c-aaaedba00566)
+
 
 __คำถาม__ 
 
