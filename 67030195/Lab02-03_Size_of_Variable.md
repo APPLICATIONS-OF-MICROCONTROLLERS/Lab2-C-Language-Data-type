@@ -334,6 +334,9 @@ Serial.println(resultInt);
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+- ผลลัพธ์ที่ได้
+  ![image](https://github.com/user-attachments/assets/fe2b8c5f-51dc-4e2b-bba2-3f31c6e9a705)
+
 
 __คำถาม__ 
 
