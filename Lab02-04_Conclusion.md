@@ -27,10 +27,10 @@
    myInteger = 2147483648 + 1; // ลองต่ำกว่าค่าต่ำสุด <br>
    Serial.print("myInteger = 2147483648 + 1 ผลลัพธ์: "); <br>
    Serial.println(myInteger);<br>
-          underflow
-   ___myInteger = -2147483648 - 1; // ลองต่ำกว่าค่าต่ำสุด <br>
-   ___Serial.print("myInteger = -2147483648 - 1 ผลลัพธ์: ");<br>
-   ___Serial.println(myInteger); <br>
+          underflow <br>
+   myInteger = -2147483648 - 1; // ลองต่ำกว่าค่าต่ำสุด <br>
+   Serial.print("myInteger = -2147483648 - 1 ผลลัพธ์: ");<br>
+   Serial.println(myInteger); <br>
 
 
 8. การทราบขนาดของชนิดข้อมูลด้วย sizeof() มีประโยชน์อย่างไรในการเขียนโปรแกรมสำหรับไมโครคอนโทรลเลอร์ที่มีหน่วยความจำจำกัด?
