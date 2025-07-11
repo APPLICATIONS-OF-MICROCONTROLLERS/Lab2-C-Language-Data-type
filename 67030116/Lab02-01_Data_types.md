@@ -206,10 +206,12 @@ Serial.println(myBool); // false จะถูกแสดงเป็น 0
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+<img width="248" height="94" alt="image" src="https://github.com/user-attachments/assets/8377be92-af90-4d7c-abdf-edb025cfb96e" />
 
 __คำถาม__ 
 
 5.1 true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
+true → แสดงเป็น 1 false → แสดงเป็น 0
 
 ### 6. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย)
 
@@ -245,12 +247,18 @@ Serial.println(myUnsignedLongLong);
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+<img width="511" height="163" alt="image" src="https://github.com/user-attachments/assets/15b1d958-3c2e-4770-bf6d-6b529ba353f1" />
 
 __คำถาม__ 
 
 6.1 บน ESP32, long มีขอบเขตเท่ากับ int หรือไม่? 
+มีขอบเขตเท่ากัน คือ: int และ long = 32-bit signed
+ขอบเขตคือ: -2,147,483,648 ถึง 2,147,483,647
+ดังนั้น long myLong = 4000000000L; จะเกิด overflow เพราะค่ามากกว่า 2.1 พันล้าน
 
 6.2 ชนิดข้อมูลใดที่ต้องใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด?
+ใช้ unsigned long long เพราะเป็นชนิด: ขนาด 64-bit
+ขอบเขต: 0 ถึง 18,446,744,073,709,551,615 เหมาะสำหรับจำนวนเต็มบวกที่ใหญ่มาก
 
 ### 7. ทดลองกับ byte (ข้อมูล 8 บิต)
 
@@ -272,7 +280,10 @@ Serial.println(myByte); // สังเกตผลลัพธ์
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+<img width="236" height="94" alt="image" src="https://github.com/user-attachments/assets/d34a806f-0ebe-45ff-bbb8-37300e09b72f" />
 
 __คำถาม__ 
 
 - เมื่อ myByte ถูกกำหนดให้เป็น 256 ผลลัพธ์ที่ได้คืออะไร และเพราะเหตุใด?
+ผลลัพธ์คือ: 0
+เหตุผล: byte มีขนาด 8 บิต เก็บค่าได้ตั้งแต่ 0 ถึง 255 เท่านั้น เมื่อเก็บค่า เกิน 255 (เช่น 256) จะ วนกลับที่ 0 เหมือนนาฬิกาที่หมุนกลับไปเริ่มใหม่เมื่อครบรอ
