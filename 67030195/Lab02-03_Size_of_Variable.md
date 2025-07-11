@@ -199,11 +199,15 @@ Serial.println(myBool); // false จะถูกแสดงเป็น 0
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+- ผลลัพธ์ที่ได้
+  ![image](https://github.com/user-attachments/assets/f476d3ad-acfb-44af-90a2-71e002739c35)
 
 
 __คำถาม__
 
 - bool ใช้กี่ไบต์? true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
+
+  ตอบ : bool ใช้ 1 ไบต์ , true ถูกแสดงผลเป็นค่า 1 และ false ถูกแสดงผลเป็นค่า 0
 
 ### 5. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย) และ sizeof():
 
