@@ -204,6 +204,7 @@ Serial.println(myBool); // false จะถูกแสดงเป็น 0
 __คำถาม__ 
 
 5.1 true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
+ตอย T แสดงค่า 1 และ F แสดงค่า 0 
 
 ### 6. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย)
 
@@ -243,8 +244,10 @@ Serial.println(myUnsignedLongLong);
 __คำถาม__ 
 
 6.1 บน ESP32, long มีขอบเขตเท่ากับ int หรือไม่? 
+ตอบ เท่ากัน
 
 6.2 ชนิดข้อมูลใดที่ต้องใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด?
+ตอบ unsigned long long
 
 ### 7. ทดลองกับ byte (ข้อมูล 8 บิต)
 
