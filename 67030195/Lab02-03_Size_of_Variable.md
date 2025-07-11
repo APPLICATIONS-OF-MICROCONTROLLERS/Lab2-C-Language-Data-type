@@ -255,12 +255,20 @@ Serial.println(myUnsignedLongLong);
 ```
 
 - ดำเนินการจำลองตามวิธีที่ได้ทดลองมาแล้ว
+- ผลลัพธ์ที่ได้
+  ![image](https://github.com/user-attachments/assets/ad8e7f29-9c30-41e5-9b5b-2273fc96decf)
+
 
 __คำถาม__
 
 - ชนิดข้อมูลจำนวนเต็มแต่ละชนิด (long, long long, unsigned int, unsigned long, unsigned long long) ใช้กี่ไบต์บน ESP32?
 
+  ตอบ : long ใช้ 4 ไบต์, long long ใช้ 8 ไบต์, unsigned int ใช้ 4 ไบต์, unsigned long ใช้ 4 ไบต์, unsigned long long ใช้ 8 ไบต์
+
 - บน ESP32, long มีขอบเขตเท่ากับ int หรือไม่? ชนิดข้อมูลใดที่คุณจะใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด?
+
+  ตอบ : long มีขอบเขตเท่ากับ int นั่นคือ 32 บิต หรือ 4 ไบต์
+        unsigned long long จะเป็นชนิดข้อมูลที่จะใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด
 
 ### 6. ทดลองกับ byte (ข้อมูล 8 บิต) และ sizeof():
 
