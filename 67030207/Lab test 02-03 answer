@@ -1,0 +1,52 @@
+1.ทดลองกับ int (จำนวนเต็ม) และ sizeof() ตาม code ที่ได้มา
+ขนาดของ int: 4 bytes
+ค่าเริ่มต้นของ myInteger: 100
+myInteger = 2147483647 ผลลัพธ์: 2147483647
+myInteger = 2147483647 + 1 ผลลัพธ์: -2147483648
+myInteger = -2147483648 ผลลัพธ์: -2147483648
+myInteger = -2147483648 - 1 ผลลัพธ์: 2147483647
+
+2.ทดลองกับ float และ double (ทศนิยม) และ sizeof() ตาม code ที่ได้มา
+ขนาดของ float: 4 bytes
+ขนาดของ double: 8 bytes
+ค่า myFloat (float): 3.14159274
+ค่า myDouble (double): 3.141592653589793
+
+3.ทดลองกับ char (อักขระ) และ sizeof() ตาม code ที่ได้มา
+ขนาดของ char: 1 bytes
+myChar = 'Z' ผลลัพธ์: Z
+myChar ในรูป ASCII: 90
+myChar = 122 ผลลัพธ์: z
+
+4.ทดลองกับ bool (ตรรกะ) และ sizeof() ตาม code ที่ได้มา
+ขนาดของ bool: 1 bytes
+myBool = true ผลลัพธ์: 1
+myBool = false ผลลัพธ์: 0
+
+5.ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย) และ sizeof() ตาม code ที่ได้มา
+ขนาดของ long: 4 bytes
+ขนาดของ long long: 8 bytes
+ขนาดของ unsigned int: 4 bytes
+ขนาดของ unsigned long: 4 bytes
+ขนาดของ unsigned long long: 8 bytes
+myLong (4,000,000,000): -294967296
+myLongLong (9,000,000,000,000,000,000): 9000000000000000000
+myUnsignedInt (4,000,000,000): 4000000000
+myUnsignedLong (4,000,000,000): 4000000000
+myUnsignedLongLong (1.8e19): 18000000000000000000
+
+6.ทดลองกับ byte (ข้อมูล 8 บิต) และ sizeof() ตาม code ที่ได้มา
+ขนาดของ byte: 1 bytes
+myByte = 250 ผลลัพธ์: 250
+myByte = 256 ผลลัพธ์: 0
+
+7.การคำนวณด้วยชนิดข้อมูลต่างกัน (Type Promotion) ตาม code ที่ได้มา
+10 / 3.0 (ผลลัพธ์ float): 3.33
+10 / 3.0 (ผลลัพธ์ double): 3.3333333333
+10 / (int)3.0 (ผลลัพธ์ int): 
+
+8.การแปลงชนิดข้อมูล (Explicit Type Casting) ตาม code ที่ได้มา
+อุณหภูมิ Celsius (float): 25.79
+อุณหภูมิ Celsius (แปลงเป็น int): 25
+อักขระ 'P' มีค่า ASCII: 80
+ค่าเฉลี่ย (7/20): 0.35

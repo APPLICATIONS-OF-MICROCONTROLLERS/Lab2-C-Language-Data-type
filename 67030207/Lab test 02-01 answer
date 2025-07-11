@@ -1,0 +1,30 @@
+1.ทดลองกับ int (จำนวนเต็ม) ตาม code ที่ได้มา
+ค่าเริ่มต้นของ myInteger: 100
+myInteger = 2147483647 ผลลัพธ์: 2147483647
+myInteger = 2147483647 + 1 ผลลัพธ์: -2147483648
+myInteger = -2147483648 ผลลัพธ์: -2147483648
+myInteger = -2147483648 - 1 ผลลัพธ์: 2147483647
+
+2.ทดลองกับ float และ double (ทศนิยม) ตาม code ที่ได้มา
+ค่า myFloat (float): 3.14159274
+ค่า myDouble (double): 3.141592653589793
+
+3.ทดลองกับ char (อักขระ) ตาม code ที่ได้มา
+myChar = 'Z' ผลลัพธ์: Z
+myChar ในรูป ASCII: 90
+myChar = 122 ผลลัพธ์: z
+
+4.ทดลองกับ bool (ตรรกะ) ตาม code ที่ได้มา
+myBool = true ผลลัพธ์: 1
+myBool = false ผลลัพธ์: 0
+
+5.ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย) ตาม code ที่ได้มา
+myLong (4,000,000,000): -294967296
+myLongLong (9,000,000,000,000,000,000): 9000000000000000000
+myUnsignedInt (4,000,000,000): 4000000000
+myUnsignedLong (4,000,000,000): 4000000000
+myUnsignedLongLong (1.8e19): 18000000000000000000
+
+6.ทดลองกับ byte (ข้อมูล 8 บิต) ตาม code ที่ได้มา
+myByte = 250 ผลลัพธ์: 250
+myByte = 256 ผลลัพธ์: 0
