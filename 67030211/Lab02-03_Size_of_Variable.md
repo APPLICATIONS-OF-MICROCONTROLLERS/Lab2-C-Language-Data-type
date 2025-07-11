@@ -21,13 +21,11 @@
 - bool ใช้พื้นที่ 1 ไบต์ ค่าของ true จะแสดงผลเป็น 1 บน Serial Monitor ส่วนค่า false จะแสดงผลเป็น 0
 
 5.1 ชนิดข้อมูลจำนวนเต็มแต่ละชนิด (long, long long, unsigned int, unsigned long, unsigned long long) ใช้กี่ไบต์บน ESP32?
-     | ชนิดข้อมูล	 | ขนาด (ไบต์) |
-     |---|---|---|
-     | long | 4 |
-     | long long	| 8 |
-     | unsigned int	 | 4 |
-     | unsigned long		| 4 |
-     | unsigned long long			| 8 |
+- long 4 ไบต์
+- long long 8 ไบต์
+- unsigned int 4 ไบต์
+- unsigned long 4 ไบต์
+- unsigned long long 8 ไบต์
      
      
 5.2 บน ESP32, long มีขอบเขตเท่ากับ int หรือไม่? ชนิดข้อมูลใดที่คุณจะใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด?
