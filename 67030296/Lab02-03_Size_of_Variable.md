@@ -243,8 +243,16 @@ Serial.println(myUnsignedLongLong);
 __คำถาม__
 
 - ชนิดข้อมูลจำนวนเต็มแต่ละชนิด (long, long long, unsigned int, unsigned long, unsigned long long) ใช้กี่ไบต์บน ESP32?
+- 
+  ตอบ int: 4 ไบต์ (32 บิต)
+long: 4 ไบต์ (32 บิต)
+long long: 8 ไบต์ (64 บิต)
+unsigned int: 4 ไบต์ (32 บิต)
+unsigned long: 4 ไบต์ (32 บิต)
+unsigned long long: 8 ไบต์ (64 บิต)
 
 - บน ESP32, long มีขอบเขตเท่ากับ int หรือไม่? ชนิดข้อมูลใดที่คุณจะใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด?
+  ตอบ มีขอบเขตเท่ากับ int
 
 ### 6. ทดลองกับ byte (ข้อมูล 8 บิต) และ sizeof():
 
